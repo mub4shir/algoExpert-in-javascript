@@ -20,11 +20,16 @@ function twoNumberSum(array, targetSum) {
         if (potentialMatch in nums) {
             return [potentialMatch, num];
         } else {
+            console.log(nums);
             nums[num] = true;
         }
     }
+
     return [];
 }
+const array=[3, -4, 8, 11, 1, -1, 6];
+const target =10;
+console.log(twoNumberSum(array,target));
 
 // O(nlog(n)) | O(1) space
 function twoNumberSum(array, targetSum) {
