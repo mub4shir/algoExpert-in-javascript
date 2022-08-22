@@ -24,7 +24,6 @@ function twoNumberSum(array, targetSum) {
             nums[num] = true;
         }
     }
-
     return [];
 }
 const array=[3, -4, 8, 11, 1, -1, 6];
